@@ -1,0 +1,5 @@
+* text=auto
+
+*.gif binary
+
+/README.md export-ignore
