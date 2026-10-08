@@ -27,5 +27,6 @@ jobs:
           sources: |
             Contrib/NewAdvSplash/advsplash.cpp
             Contrib/NewAdvSplash/gif.cpp
+          targets: x86-ansi
           strict: false
           release: ${{ github.event_name == 'release' }}
